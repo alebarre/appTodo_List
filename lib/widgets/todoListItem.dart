@@ -12,7 +12,6 @@ class TodoListItem extends StatelessWidget {
   final Todo todo;
   final Function(Todo) onDelete;
 
-
   @override
   Widget build(BuildContext context) {
     return Padding(
